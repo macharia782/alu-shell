@@ -7,3 +7,4 @@ chmod u+x hello : this command adds execute permission to the owner of the file 
 chmod ug+x+r hello : this command adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
 chmod a+x hello : adds execution permission to the owner, the group owner and the other users, to the file hello.
 chmod 007 hello : this commands gives all permissions to others only and none for owner and group.
+chmod 753 hello : this command gives the file owner full read, write, and execute permissions (7), the group read and execute permissions (5), and all other users write and execute permissions (3) 
