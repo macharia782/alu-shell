@@ -5,3 +5,4 @@ chown betty hello : this command changes the owner of the file hello to the user
 touch hello : this command creates an empty file called hello.
 chmod u+x hello : this command adds execute permission to the owner of the file hello.
 chmod ug+x+r hello : this command adds execute permission to the owner and the group owner, and read permission to other users, to the file hello.
+chmod a+x hello : adds execution permission to the owner, the group owner and the other users, to the file hello.
