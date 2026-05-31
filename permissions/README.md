@@ -10,4 +10,5 @@ chmod 007 hello : this commands gives all permissions to others only and none fo
 chmod 753 hello : this command gives the file owner full read, write, and execute permissions (7), the group read and execute permissions (5), and all other users write and execute permissions (3)
 chmod --reference=olleh hello : copies the exact file permissions of olleh and applies them to hello.
 chmod a+x */ : adds execute permission to all subdirectories of the current directory for the owner, the group owner and all other users leaving regular files unchanged.
-mkdir -m 751 my_dir : this command creates a directory with 751 file permissions in a single step. 
+mkdir -m 751 my_dir : this command creates a directory with 751 file permissions in a single step.
+chgrp school hello : This command changes the group owner to school for the file hello 
