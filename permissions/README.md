@@ -14,3 +14,4 @@ mkdir -m 751 my_dir : this command creates a directory with 751 file permissions
 chgrp school hello : This command changes the group owner to school for the file hello 
 chown vincent:staff * : This command changes the owner to vincent and the group owner to staff for all the files and directories in the working directory.
 chown -h vincent:staff _hello : This command changes the owner and the group owner of _hello to vincent and staff respectively.
+chown --from=guillaume vincent hello : this command changes the user to vincent only if the file is owned by guillaume.
