@@ -5,3 +5,4 @@ echo "$PATH" | tr ':' '\n' | grep -v '^$' | wc -l : counts the number of directo
 printenv : this command lists environment variables.
 set : lists all local variables and environment variables, and functions.
 BEST=School : Creates a local variable with the value School.
+export BEST=School : Creates a new global variable.
