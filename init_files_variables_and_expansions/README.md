@@ -14,3 +14,4 @@ echo {a..z}{a..z} | tr ' ' '\n' | grep -v oo : prints all possible combinations 
 printf "%.2f\n" $NUM : prints a number with two decimal places, followed by a new line.
 tr 'A-Za-z' 'N-ZA-Mn-za-m' : encodes and decodes text using the rot13 encryption
 paste - - | cut -f1 : prints every other line from the input, starting with the first line.
+echo $(printf '%o\n' $(( $(echo $WATER | tr 'water' '01234') + $(echo $STIR | tr 'stir.' '01234') )) | tr '01234567' 'bestchol'): adds the two numbers stored in the environment variables WATER and STIR and prints the result.
